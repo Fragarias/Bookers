@@ -14,12 +14,23 @@
  *= require_self
  */
 
-/** {*/
-/*  margin: 0;*/
-/*  padding: 0;*/
-/*  box-sizing: border-box;*/
-/*}*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-/*h1 {*/
-/*  font-family: 'Kaushan', cursive, sans-serif;*/
-/*}*/
+h1 {
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.flash-message {
+  padding: 15px 30px;
+  margin: 15px;
+}
+.flash-message.notice {
+  color: green;
+}
+.flash-message.alert {
+  color: red;
+}
